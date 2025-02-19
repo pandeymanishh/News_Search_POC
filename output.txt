@@ -1,0 +1,87 @@
+prompt_1 = '''Provide a summary of the 5 most recent mergers and acquisitions involving "American Crafts" as the *primary* company involved (either acquiring or being acquired). Do *not* include any transactions where "American Crafts" is only tangentially related.
+Always use google search to ground your results and leverage latest information available.
+For each event, provide the following:
+
+*   **Summary:** A concise summary of the event (approximately 1 sentence).
+*   **Source Link:** At least one (up to three) credible website links where the information can be verified. Prioritize links to reputable news sources, press releases, or financial websites. Use Google Search to find and ground the information for each event.
+
+Prioritize the most recent transactions.
+'''
+
+
+Based on my research, here are the 5 most recent mergers and acquisitions where American Crafts was the primary company involved:
+
+1.  **Acquisition of EK Success (2018-09-05):** American Crafts acquired EK Success Ltd. and its affiliated companies (EKSB), a division of Wilton Brands, bringing brands like EK Tools, Sticko, Jolee's Boutique, and K&Company into the American Crafts portfolio.
+    *   [https://rwbaird.com/newsroom/news/eksb-is-acquired-by-american-crafts/](https://rwbaird.com/newsroom/news/eksb-is-acquired-by-american-crafts/)
+    *   [https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/](https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/)
+
+2.  **Acquisition of the paper division of Die Cuts With A View (DCWV) (2017-06-26):** American Crafts acquired the paper division of DCWV, including their popular Stacks® brand of paper and specialty pads, and an affordable line of letterboards and accessories.
+    *   [https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUBnsYvmedez0yya0IoIGMM2kOa0zA7JskiCqy-OSOUooO3N0cnSU-5CfNWOT3QxW_B54NsQ6nXdD8jG6SjXFfGZYg3AtgRPG2_4Hvp1ys4fYHdpHRpszd_V2qa1x5dbty0RiGu3zY1ZG_c2tFsVcy8w1DpPdWWmI_QoBCUSrgvzVecqBVQGvIZ2-fgQJM87N2bndi7jOKOL1Sih-4_k3oMlWfIC](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUBnsYvmedez0yya0IoIGMM2kOa0zA7JskiCqy-OSOUooO3N0cnSU-5CfNWOT3QxW_B54NsQ6nXdD8jG6SjXFfGZYg3AtgRPG2_4Hvp1ys4fYHdpHRpszd_V2qa1x5dbty0RiGu3zY1ZG_c2tFsVcy8w1DpPdWWmI_QoBCUSrgvzVecqBVQGvIZ2-fgQJM87N2bndi7jOKOL1Sih-4_k3oMlWfIC)
+
+3.  **Acquisition of Core'dinations (2017):** American Crafts acquired Core'dinations. I am unable to find a specific date or link to a reliable news source for this acquisition. However, it is mentioned as occurring in 2017, according to [https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/](https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/).
+
+4.  **Acquisition of BoBunny Press (2017):** American Crafts acquired BoBunny Press. I am unable to find a specific date or link to a reliable news source for this acquisition. However, it is mentioned as occurring in 2017, according to [https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/](https://nallystudios.com/2018/09/05/american-crafts-buys-ek-success/).
+
+5.  **Acquisition of Bazzill Basics (2014-04-02):** American Crafts purchased Bazzill Basics, a well-known brand in the scrapbook industry, particularly known for its cardstock.
+    *   [https://nallystudios.com/2014/04/02/american-crafts-acquires-bazzill-basics/](https://nallystudios.com/2014/04/02/american-crafts-acquires-bazzill-basics/)
+
+
+prompt_1 = '''Provide a summary of the 5 most recent leadership changes involving "American Crafts" as the *primary* company involved. Do *not* include any transactions where "American Crafts" is only tangentially related.
+Always use google search to ground your results and leverage latest information available.
+Hard Requirement :Respond with one word No,  if you are not confident about "American Crafts" being involved or referenced in the event.
+For each event, provide the following:
+
+*   **Summary:** A concise summary of the event (approximately 1 sentence).
+*   **Source Link:** At least one (up to three) credible website links where the information can be verified. Prioritize links to reputable news sources, press releases, or financial websites. Use Google Search to find and ground the information for each event.
+
+Prioritize the most recent transactions.
+'''
+No
+
+
+prompt_1 = '''Provide a summary of the most recent legal cases and lawsuits involving American Crafts as the primary company.  Only include cases involving American Crafts, its subsidiaries, and brands it has acquired (e.g., EK Success after it was acquired by American Crafts). If there are less than 5 cases, return all known cases.
+
+For each case, provide the following:
+
+*   **Summary:** A concise summary of the event (approximately 1-2 sentences).
+*   **Source Link:** At least one (up to three) credible website links where the information can be verified. Prioritize links to reputable news sources, court documents, or official government websites.
+
+Hard Requirement :Respond with one word No,  if you are not confident about "American Crafts" being involved or referenced in the event.'''
+No
+
+
+
+Generate a concise company overview focusing on the core business activities of American Crafts. The overview should be suitable for a quick understanding of the company's operations and market position.
+
+Address the following points to gather information for the overview:
+
+Primary Business Activity: What is the main thing this company does? (e.g., manufacturing, software development, retail, service provision). Be as specific as possible.
+
+Industry Catered: What industry or industries does the company primarily serve? (e.g., technology, healthcare, consumer goods, finance).
+
+Geographic Region: Where does the company primarily operate or sell its products/services? (e.g., North America, Europe, Asia, globally; or specific countries/regions).
+
+Products or Services Offered: Briefly list the main products or services offered by the company. What are their key offerings?
+
+Target Customer: Who is the company's ideal or typical customer? (e.g., small businesses, large enterprises, consumers, government agencies).
+
+Key Differentiator (Optional): What makes this company stand out from its competitors? (e.g., innovative technology, exceptional customer service, competitive pricing).
+
+Final Output Requirement: Synthesize the information gathered above into a single paragraph providing a company overview. This paragraph MUST NOT exceed 10 lines (including any blank lines). The paragraph should clearly and concisely communicate the company's core business, the industry it operates in, its geographic reach, and its target customer.
+
+Formatting Requirements:
+
+The entire output must be a single paragraph.
+
+The paragraph should be well-written and easy to understand.
+
+Do not use bullet points or numbered lists in the final output.
+
+Maintain a professional tone.
+
+Important: Use Google Search to find the most up-to-date and accurate information about the company. Focus on identifying the company's primary activities and target market.
+
+
+
+
+American Crafts is a manufacturer and supplier of crafting and stationery products, serving the arts and crafts industry. They offer a wide range of products, including scrapbooking materials, stickers, cardstock, pens, markers, albums, and embellishments. Operating primarily in North America and partnering with major retailers globally, American Crafts targets crafters, scrapbookers, card makers, and DIY enthusiasts, providing them with tools and inspiration to record memories and express creativity. They are known for fresh, clean product designs and friendly customer service.
