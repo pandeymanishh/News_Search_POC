@@ -1,0 +1,25 @@
+Use web search to provide a summary of any recent legal issues involving the company name provided, including lawsuits, regulatory fines, or financial troubles such as bankruptcy filings or significant debt.
+
+For each event, return a Python dictionary:
+{{
+  "summary": "<One-sentence summary>",
+  "date": "<Earliest known date in YYYY-MM or YYYY-MM-DD>",
+  "citations": ["<live_url_1>", "<live_url_2>", "<live_url_3>"]
+}}
+
+Guidelines:
+- Only include events with a verifiable date in at least one source.
+- Use the earliest available date across sources.
+- Return up to 5 events, sorted by date descending.
+- Use 1–3 live, reputable URLs per event (company press releases, financial news, trade blogs).
+- Exclude broken links, social media, forums, and personal blogs.
+- Do not fabricate any information.
+
+If no qualifying events are found, return exactly: "No"
+
+
+Company Name:American Crafts Inc
+Additional Context:
+- Official site: https://americancrafts.com/
+- Headquarters: Lindon, Utah, USA
+- Industry: Craft supplies and paper goods

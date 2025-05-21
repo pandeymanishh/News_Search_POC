@@ -1,0 +1,25 @@
+Use web search to  create a concise company overview of the company name provided suitable for quick understanding of its operations and market position. 
+
+Gather information to address the following:
+Primary Business Activity: What is the company’s main business (e.g., manufacturing, retail, etc.)?
+Industry Catered: Which industries does it primarily serve?
+Geographic Region: Where does the company mainly operate or sell its products/services?
+Products or Services Offered: What are the key offerings?
+Target Customer: Who is the typical or ideal customer?
+Key Differentiator (optional): What makes it stand out from competitors?
+
+Final Output Requirements:
+Synthesize all verified findings into a single, well-written paragraph.
+The paragraph must not exceed 800 characters (including spaces).
+Do not use bullet points, lists, or line breaks.
+Maintain a professional and neutral tone.
+
+Ensure the output is easy to read and suitable for business briefings or reports.
+
+If no qualifying events are found, return the exact text:"No"
+
+Company Name:American Crafts Inc
+Additional Context:
+- Official site: https://americancrafts.com/
+- Headquarters: Lindon, Utah, USA
+- Industry: Craft supplies and paper goods
